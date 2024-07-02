@@ -149,7 +149,8 @@ body {
 
 /* section main services */
 .main_services {
-    padding-top: 50px;
+    margin-bottom: 80px;
+    padding: 50px 0px;
     background-color: #192024;
 }
 .services_title {
@@ -192,6 +193,9 @@ body {
 
 .choices_card p {
     max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
     font-size: 14px;
     line-height: 179%;
     text-align: center;
@@ -199,11 +203,74 @@ body {
 }
 
 .choices_card button {
-    /* display: block;
-    margin: 0 auto; */
+    display: block;
+    margin: 0 auto;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 183px;
     height: 43px;
     color: #fff;
+}
+
+/* section main tab */
+.main_tab {
+
+}
+
+.tab_title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #676770;
+}
+
+.tab_text {
+    margin-bottom: 50px;
+    font-size: 17px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8e8e9c;
+}
+
+.tab_buttons {
+    max-width: 630px;
+    margin: 0 auto 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab_buttons button {
+    width: 196px;
+    height: 21px;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: #92a0ad;
+    border-radius: 4px;
+}
+
+.tab_img {
+    height: 627px;
+    margin-bottom: 25px;
+    border: 1px solid red;
+}
+
+.option_title {
+    margin-bottom: 10px;
+    font-size: 31px;
+    text-align: center;
+    color: #676770;
+}
+
+.option_text {
+    margin-bottom: 100px;
+    font-size: 13px;
+    line-height: 192%;
+    text-align: center;
+    color: #6a859c;
 }
