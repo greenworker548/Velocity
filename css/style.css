@@ -270,7 +270,118 @@ body {
 .option_text {
     margin-bottom: 100px;
     font-size: 13px;
-    line-height: 192%;
     text-align: center;
     color: #6a859c;
+}
+
+/* section main social */
+.wrapper.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_about{
+    max-width: 300px;
+    min-width: 290px;
+}
+
+.about_title {
+    margin-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.about_text {
+    font-size: 14px;
+    line-height: 179%;
+    color: #6a859c;
+}
+
+.social_links {
+    max-width: 300px;
+    min-width: 290px;
+}
+
+.links_title {
+    margin-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.links_item {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d5d5e0;
+}
+
+.links_item a {
+    font-size: 13px;
+    color: #668cad;
+}
+
+.social_messengers{
+    max-width: 300px;
+    min-width: 290px;
+}
+
+.messengers_title {
+    margin-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.messengers_links li {
+    padding-bottom: 9px;
+    border-bottom: 1px solid #d5d5e0;
+}
+
+.messengers_links li a {
+    font-size: 13px;
+    color: #668cad;
+}
+
+.messengers_item-twitter::before {
+    content: url(../img/icon1.svg);
+    margin-right: 10px;
+}
+
+.messengers_item-facebook::before {
+    content: url(../img/icon2.svg);
+    margin-right: 10px;
+}
+
+.messengers_item-pinterest::before {
+    content: url(../img/icon3.svg);
+    margin-right: 10px;
+}
+
+.messengers_item-google::before {
+    content: url(../img/icon4.svg);
+    margin-right: 10px;
+}
+
+.messengers_item-webflow::before {
+    content: url(../img/icon5.svg);
+    margin-right: 10px;
+}
+
+/* section main footer */
+.footer {
+    height: 100px;
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    font-size: 15px;
+    line-height: 133%;
+    text-align: center;
+    color: #9e9e9e;
 }
